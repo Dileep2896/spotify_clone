@@ -1,6 +1,6 @@
 # Spotify Clone Mobile Application
 
-A full-stack music streaming application that replicates the core functionalities of **Spotify**. This project showcases my skills in **Flutter** for mobile development, **FastAPI** for backend services, and **Cloudinary** for media management. The app allows users to listen to music, upload new tracks, manage playlists, and perform various other tasks in a Spotify-like environment.
+A full-stack music streaming application that replicates the core functionalities of **Spotify**. This project showcases my skills in **Flutter** for mobile development, **FastAPI** for backend services, **PostgreSQL** with **SQLAlchemy ORM** for database management, and **Cloudinary** for media management. The app allows users to listen to music, upload new tracks, manage playlists, and perform various other tasks in a Spotify-like environment.
 
 ## Table of Contents
 
@@ -14,7 +14,9 @@ A full-stack music streaming application that replicates the core functionalitie
   - [Frontend (Flutter)](#frontend-flutter)
   - [Backend (FastAPI)](#backend-fastapi)
   - [Cloud Integration (Cloudinary)](#cloud-integration-cloudinary)
+  - [Database Management (PostgreSQL & SQLAlchemy)](#database-management-postgresql-sqlalchemy)
 - [Video Demo](#video-demo)
+- [Images](#images)
 - [Conclusion](#conclusion)
 
 ## Features
@@ -29,10 +31,10 @@ The application implements a **secure authentication and authorization** system 
 
 ### Music Library
 
-The app dynamically manages a user’s music library, providing options to explore **newly uploaded songs** and **recently played tracks**. It pulls song metadata and media directly from **Cloudinary**, ensuring fast and secure access to audio files.
+The app dynamically manages a user’s music library, providing options to explore **newly uploaded songs** and **recently played tracks**. It pulls song metadata and media directly from **Cloudinary** and stores essential song information in **PostgreSQL**, ensuring fast and secure access to audio files.
 
 - **Dynamic Song List:** Users can view a constantly updated list of newly uploaded songs and their recently played songs.
-- **Favorites Management:** Users can easily mark songs as favorites, which are then stored locally for quick access and personalization.
+- **Favorites Management:** Users can easily mark songs as favorites, which are stored both locally and in **PostgreSQL** for persistent access across devices.
 
 ### Background Music Playback
 
@@ -84,17 +86,18 @@ The backend is built using **FastAPI**, providing high-performance, asynchronous
 - **Scalable Storage:** Ensures that large volumes of media files can be efficiently stored and retrieved.
 - **Media Optimization:** Delivers optimized audio and image content, reducing load times and enhancing user experience.
 
+### Database Management (PostgreSQL & SQLAlchemy)
+
+The app uses **PostgreSQL** as the primary relational database, managed through **SQLAlchemy ORM**, ensuring that song metadata, user data, and favorites are securely stored and retrieved efficiently.
+
+- **Relational Data Modeling:** The database schema is designed to store user data, song metadata, and playback history, allowing for efficient querying and secure access.
+- **SQLAlchemy ORM:** Used to handle all database transactions and efficiently map Python objects to database tables, ensuring seamless interaction between the app and the database.
+
 ## Video Demo
 
 Check out the video demo of the Spotify Clone in action:
 
-## Video Demo
-
-## Video Demo
-
-Click on the link below to watch a demo of the Spotify Clone application:
-
-[![Watch Demo](https://img.youtube.com/vi/YourVideoID/maxresdefault.jpg)](./spotify_demo.webm)
+Watch the video demo [here](./project_assets/spotify_demo.webm).
 
 This video demonstrates all the core features of the application, including:
 
@@ -103,8 +106,20 @@ This video demonstrates all the core features of the application, including:
 - Music playback with background support.
 - UI/UX showcasing the Spotify-like design.
 
+## Images
+
+Below are screenshots of the app in action:
+
+| Home Screen                        | Favorites Screen                       | Upload Screen                          |
+| ---------------------------------- | -------------------------------------- | -------------------------------------- |
+| ![Home](./project_assets/home.png) | ![Favorites](./project_assets/fav.png) | ![Upload](./project_assets/upload.png) |
+
+| User Profile                       | Signup Screen                          | Signup Screen (Alt)                    |
+| ---------------------------------- | -------------------------------------- | -------------------------------------- |
+| ![User](./project_assets/user.png) | ![Signup](./project_assets/signup.png) | ![Signup](./project_assets/signup.png) |
+
 ## Conclusion
 
-This project is a complete demonstration of my full-stack mobile development capabilities. From integrating **Flutter** for frontend mobile app development to designing high-performance **FastAPI** backend services and leveraging **Cloudinary** for scalable media storage, this application showcases a robust, real-world solution for music streaming services.
+This project is a complete demonstration of my full-stack mobile development capabilities. From integrating **Flutter** for frontend mobile app development to designing high-performance **FastAPI** backend services and leveraging **PostgreSQL** with **SQLAlchemy ORM** for database management, this application showcases a robust, real-world solution for music streaming services.
 
 It highlights not only my ability to build performant applications but also my expertise in designing secure, scalable, and user-friendly mobile apps. Feel free to explore the codebase to gain insight into the various technologies and design patterns employed.
