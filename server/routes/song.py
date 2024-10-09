@@ -15,9 +15,9 @@ router = APIRouter()
 
 # Configuration       
 cloudinary.config( 
-    cloud_name = "CLOUD_NAME", 
-    api_key = "API_KEY", 
-    api_secret = 'API_SECRET',
+    cloud_name = "dkuand2eu", 
+    api_key = "385927285772568", 
+    api_secret = 'EAY25_Gz87OIdru_cbakUlUf59c',
     secure=True
 )
 
