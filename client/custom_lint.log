@@ -1,0 +1,414 @@
+The request analysis.updateContent failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request threw the exception:Invalid overlay change: no content to change
+null
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:268:11)
+#1      _$CustomLintResponseAnalyzerPluginResponseImpl.map (package:custom_lint/src/v2/protocol.freezed.dart:928:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:262:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234:22)
+<asynchronous suspension>
+#4      CustomLintServer._handleRequest.<anonymous closure>.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:190:17)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:173:22)
+<asynchronous suspension>
+
+The request analysis.updateContent failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request threw the exception:Invalid overlay change: no content to change
+null
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:268:11)
+#1      _$CustomLintResponseAnalyzerPluginResponseImpl.map (package:custom_lint/src/v2/protocol.freezed.dart:928:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:262:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234:22)
+<asynchronous suspension>
+#4      CustomLintServer._handleRequest.<anonymous closure>.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:190:17)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:173:22)
+<asynchronous suspension>
+
+[IgnoreCode] 2024-10-06T16:16:56.201096 Plugin IgnoreCode threw while analyzing /Users/dileepkumarsharma/Desktop/Projects/Flutter/spotify_clone/client/lib/features/auth/viewmodel/auth_viewmodel.dart:
+[IgnoreCode] 2024-10-06T16:16:56.201096 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[IgnoreCode] 2024-10-06T16:16:56.201096
+[IgnoreCode] 2024-10-06T16:16:56.201096 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:54:7)
+[IgnoreCode] 2024-10-06T16:16:56.201096 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:129:5)
+[IgnoreCode] 2024-10-06T16:16:56.201096 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[IgnoreCode] 2024-10-06T16:16:56.201096 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[IgnoreCode] 2024-10-06T16:16:56.201096 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[IgnoreCode] 2024-10-06T16:16:56.201096 #5      new Future.<anonymous closure> (dart:async/future.dart:258:40)
+[IgnoreCode] 2024-10-06T16:16:56.201096 #6      _rootRun (dart:async/zone.dart:1391:47)
+[IgnoreCode] 2024-10-06T16:16:56.201096 #7      _CustomZone.run (dart:async/zone.dart:1301:19)
+[IgnoreCode] 2024-10-06T16:16:56.201096 #8      _CustomZone.runGuarded (dart:async/zone.dart:1209:7)
+[IgnoreCode] 2024-10-06T16:16:56.201096 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1249:23)
+[IgnoreCode] 2024-10-06T16:16:56.201096 #10     _rootRun (dart:async/zone.dart:1399:13)
+[IgnoreCode] 2024-10-06T16:16:56.201096 #11     _CustomZone.run (dart:async/zone.dart:1301:19)
+[IgnoreCode] 2024-10-06T16:16:56.201096 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[IgnoreCode] 2024-10-06T16:16:56.201096 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[IgnoreCode] 2024-10-06T16:16:56.201096 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:398:19)
+[IgnoreCode] 2024-10-06T16:16:56.201096 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:429:5)
+[IgnoreCode] 2024-10-06T16:16:56.201096 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:184:12)
+[IgnoreCode] 2024-10-06T16:16:56.201096
+[IgnoreCode] 2024-10-06T16:16:56.204599 Plugin IgnoreCode threw while analyzing /Users/dileepkumarsharma/Desktop/Projects/Flutter/spotify_clone/client/lib/features/auth/viewmodel/auth_viewmodel.dart:
+[IgnoreCode] 2024-10-06T16:16:56.204599 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[IgnoreCode] 2024-10-06T16:16:56.204599
+[IgnoreCode] 2024-10-06T16:16:56.204599 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:54:7)
+[IgnoreCode] 2024-10-06T16:16:56.204599 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:129:5)
+[IgnoreCode] 2024-10-06T16:16:56.204599 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[IgnoreCode] 2024-10-06T16:16:56.204599 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[IgnoreCode] 2024-10-06T16:16:56.204599 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[IgnoreCode] 2024-10-06T16:16:56.204599 #5      new Future.<anonymous closure> (dart:async/future.dart:258:40)
+[IgnoreCode] 2024-10-06T16:16:56.204599 #6      _rootRun (dart:async/zone.dart:1391:47)
+[IgnoreCode] 2024-10-06T16:16:56.204599 #7      _CustomZone.run (dart:async/zone.dart:1301:19)
+[IgnoreCode] 2024-10-06T16:16:56.204599 #8      _CustomZone.runGuarded (dart:async/zone.dart:1209:7)
+[IgnoreCode] 2024-10-06T16:16:56.204599 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1249:23)
+[IgnoreCode] 2024-10-06T16:16:56.204599 #10     _rootRun (dart:async/zone.dart:1399:13)
+[IgnoreCode] 2024-10-06T16:16:56.204599 #11     _CustomZone.run (dart:async/zone.dart:1301:19)
+[IgnoreCode] 2024-10-06T16:16:56.204599 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[IgnoreCode] 2024-10-06T16:16:56.204599 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[IgnoreCode] 2024-10-06T16:16:56.204599 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:398:19)
+[IgnoreCode] 2024-10-06T16:16:56.204599 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:429:5)
+[IgnoreCode] 2024-10-06T16:16:56.204599 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:184:12)
+[IgnoreCode] 2024-10-06T16:16:56.204599
+[IgnoreCode] 2024-10-06T17:04:43.716073 Plugin IgnoreCode threw while analyzing /Users/dileepkumarsharma/Desktop/Projects/Flutter/spotify_clone/client/lib/features/auth/viewmodel/auth_viewmodel.dart:
+[IgnoreCode] 2024-10-06T17:04:43.716073 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[IgnoreCode] 2024-10-06T17:04:43.716073
+[IgnoreCode] 2024-10-06T17:04:43.716073 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:54:7)
+[IgnoreCode] 2024-10-06T17:04:43.716073 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:129:5)
+[IgnoreCode] 2024-10-06T17:04:43.716073 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[IgnoreCode] 2024-10-06T17:04:43.716073 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[IgnoreCode] 2024-10-06T17:04:43.716073 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[IgnoreCode] 2024-10-06T17:04:43.716073 #5      new Future.<anonymous closure> (dart:async/future.dart:258:40)
+[IgnoreCode] 2024-10-06T17:04:43.716073 #6      _rootRun (dart:async/zone.dart:1391:47)
+[IgnoreCode] 2024-10-06T17:04:43.716073 #7      _CustomZone.run (dart:async/zone.dart:1301:19)
+[IgnoreCode] 2024-10-06T17:04:43.716073 #8      _CustomZone.runGuarded (dart:async/zone.dart:1209:7)
+[IgnoreCode] 2024-10-06T17:04:43.716073 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1249:23)
+[IgnoreCode] 2024-10-06T17:04:43.716073 #10     _rootRun (dart:async/zone.dart:1399:13)
+[IgnoreCode] 2024-10-06T17:04:43.716073 #11     _CustomZone.run (dart:async/zone.dart:1301:19)
+[IgnoreCode] 2024-10-06T17:04:43.716073 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[IgnoreCode] 2024-10-06T17:04:43.716073 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[IgnoreCode] 2024-10-06T17:04:43.716073 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:398:19)
+[IgnoreCode] 2024-10-06T17:04:43.716073 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:429:5)
+[IgnoreCode] 2024-10-06T17:04:43.716073 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:184:12)
+[IgnoreCode] 2024-10-06T17:04:43.716073
+[IgnoreCode] 2024-10-06T17:04:43.720058 Plugin IgnoreCode threw while analyzing /Users/dileepkumarsharma/Desktop/Projects/Flutter/spotify_clone/client/lib/features/auth/viewmodel/auth_viewmodel.dart:
+[IgnoreCode] 2024-10-06T17:04:43.720058 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[IgnoreCode] 2024-10-06T17:04:43.720058
+[IgnoreCode] 2024-10-06T17:04:43.720058 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:54:7)
+[IgnoreCode] 2024-10-06T17:04:43.720058 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:129:5)
+[IgnoreCode] 2024-10-06T17:04:43.720058 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[IgnoreCode] 2024-10-06T17:04:43.720058 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[IgnoreCode] 2024-10-06T17:04:43.720058 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[IgnoreCode] 2024-10-06T17:04:43.720058 #5      new Future.<anonymous closure> (dart:async/future.dart:258:40)
+[IgnoreCode] 2024-10-06T17:04:43.720058 #6      _rootRun (dart:async/zone.dart:1391:47)
+[IgnoreCode] 2024-10-06T17:04:43.720058 #7      _CustomZone.run (dart:async/zone.dart:1301:19)
+[IgnoreCode] 2024-10-06T17:04:43.720058 #8      _CustomZone.runGuarded (dart:async/zone.dart:1209:7)
+[IgnoreCode] 2024-10-06T17:04:43.720058 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1249:23)
+[IgnoreCode] 2024-10-06T17:04:43.720058 #10     _rootRun (dart:async/zone.dart:1399:13)
+[IgnoreCode] 2024-10-06T17:04:43.720058 #11     _CustomZone.run (dart:async/zone.dart:1301:19)
+[IgnoreCode] 2024-10-06T17:04:43.720058 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[IgnoreCode] 2024-10-06T17:04:43.720058 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[IgnoreCode] 2024-10-06T17:04:43.720058 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:398:19)
+[IgnoreCode] 2024-10-06T17:04:43.720058 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:429:5)
+[IgnoreCode] 2024-10-06T17:04:43.720058 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:184:12)
+[IgnoreCode] 2024-10-06T17:04:43.720058
+[IgnoreCode] 2024-10-06T17:04:59.510972 Plugin IgnoreCode threw while analyzing /Users/dileepkumarsharma/Desktop/Projects/Flutter/spotify_clone/client/lib/features/auth/viewmodel/auth_viewmodel.dart:
+[IgnoreCode] 2024-10-06T17:04:59.510972 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[IgnoreCode] 2024-10-06T17:04:59.510972
+[IgnoreCode] 2024-10-06T17:04:59.510972 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:54:7)
+[IgnoreCode] 2024-10-06T17:04:59.510972 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:129:5)
+[IgnoreCode] 2024-10-06T17:04:59.510972 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[IgnoreCode] 2024-10-06T17:04:59.510972 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[IgnoreCode] 2024-10-06T17:04:59.510972 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[IgnoreCode] 2024-10-06T17:04:59.510972 #5      new Future.<anonymous closure> (dart:async/future.dart:258:40)
+[IgnoreCode] 2024-10-06T17:04:59.510972 #6      _rootRun (dart:async/zone.dart:1391:47)
+[IgnoreCode] 2024-10-06T17:04:59.510972 #7      _CustomZone.run (dart:async/zone.dart:1301:19)
+[IgnoreCode] 2024-10-06T17:04:59.510972 #8      _CustomZone.runGuarded (dart:async/zone.dart:1209:7)
+[IgnoreCode] 2024-10-06T17:04:59.510972 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1249:23)
+[IgnoreCode] 2024-10-06T17:04:59.510972 #10     _rootRun (dart:async/zone.dart:1399:13)
+[IgnoreCode] 2024-10-06T17:04:59.510972 #11     _CustomZone.run (dart:async/zone.dart:1301:19)
+[IgnoreCode] 2024-10-06T17:04:59.510972 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[IgnoreCode] 2024-10-06T17:04:59.510972 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[IgnoreCode] 2024-10-06T17:04:59.510972 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:398:19)
+[IgnoreCode] 2024-10-06T17:04:59.510972 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:429:5)
+[IgnoreCode] 2024-10-06T17:04:59.510972 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:184:12)
+[IgnoreCode] 2024-10-06T17:04:59.510972
+[IgnoreCode] 2024-10-06T17:04:59.512223 Plugin IgnoreCode threw while analyzing /Users/dileepkumarsharma/Desktop/Projects/Flutter/spotify_clone/client/lib/features/auth/viewmodel/auth_viewmodel.dart:
+[IgnoreCode] 2024-10-06T17:04:59.512223 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[IgnoreCode] 2024-10-06T17:04:59.512223
+[IgnoreCode] 2024-10-06T17:04:59.512223 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:54:7)
+[IgnoreCode] 2024-10-06T17:04:59.512223 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:129:5)
+[IgnoreCode] 2024-10-06T17:04:59.512223 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[IgnoreCode] 2024-10-06T17:04:59.512223 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[IgnoreCode] 2024-10-06T17:04:59.512223 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[IgnoreCode] 2024-10-06T17:04:59.512223 #5      new Future.<anonymous closure> (dart:async/future.dart:258:40)
+[IgnoreCode] 2024-10-06T17:04:59.512223 #6      _rootRun (dart:async/zone.dart:1391:47)
+[IgnoreCode] 2024-10-06T17:04:59.512223 #7      _CustomZone.run (dart:async/zone.dart:1301:19)
+[IgnoreCode] 2024-10-06T17:04:59.512223 #8      _CustomZone.runGuarded (dart:async/zone.dart:1209:7)
+[IgnoreCode] 2024-10-06T17:04:59.512223 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1249:23)
+[IgnoreCode] 2024-10-06T17:04:59.512223 #10     _rootRun (dart:async/zone.dart:1399:13)
+[IgnoreCode] 2024-10-06T17:04:59.512223 #11     _CustomZone.run (dart:async/zone.dart:1301:19)
+[IgnoreCode] 2024-10-06T17:04:59.512223 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[IgnoreCode] 2024-10-06T17:04:59.512223 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[IgnoreCode] 2024-10-06T17:04:59.512223 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:398:19)
+[IgnoreCode] 2024-10-06T17:04:59.512223 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:429:5)
+[IgnoreCode] 2024-10-06T17:04:59.512223 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:184:12)
+[IgnoreCode] 2024-10-06T17:04:59.512223
+[WrapWithConsumer] 2024-10-06T17:41:26.460945 Plugin WrapWithConsumer threw while analyzing /Users/dileepkumarsharma/Desktop/Projects/Flutter/spotify_clone/client/lib/features/home/view/pages/upload_song_page.dart:
+[WrapWithConsumer] 2024-10-06T17:41:26.460945 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[WrapWithConsumer] 2024-10-06T17:41:26.460945
+[WrapWithConsumer] 2024-10-06T17:41:26.460945 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:54:7)
+[WrapWithConsumer] 2024-10-06T17:41:26.460945 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:129:5)
+[WrapWithConsumer] 2024-10-06T17:41:26.460945 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[WrapWithConsumer] 2024-10-06T17:41:26.460945 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[WrapWithConsumer] 2024-10-06T17:41:26.460945 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[WrapWithConsumer] 2024-10-06T17:41:26.460945 #5      new Future.<anonymous closure> (dart:async/future.dart:258:40)
+[WrapWithConsumer] 2024-10-06T17:41:26.460945 #6      _rootRun (dart:async/zone.dart:1391:47)
+[WrapWithConsumer] 2024-10-06T17:41:26.460945 #7      _CustomZone.run (dart:async/zone.dart:1301:19)
+[WrapWithConsumer] 2024-10-06T17:41:26.460945 #8      _CustomZone.runGuarded (dart:async/zone.dart:1209:7)
+[WrapWithConsumer] 2024-10-06T17:41:26.460945 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1249:23)
+[WrapWithConsumer] 2024-10-06T17:41:26.460945 #10     _rootRun (dart:async/zone.dart:1399:13)
+[WrapWithConsumer] 2024-10-06T17:41:26.460945 #11     _CustomZone.run (dart:async/zone.dart:1301:19)
+[WrapWithConsumer] 2024-10-06T17:41:26.460945 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[WrapWithConsumer] 2024-10-06T17:41:26.460945 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[WrapWithConsumer] 2024-10-06T17:41:26.460945 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:398:19)
+[WrapWithConsumer] 2024-10-06T17:41:26.460945 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:429:5)
+[WrapWithConsumer] 2024-10-06T17:41:26.460945 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:184:12)
+[WrapWithConsumer] 2024-10-06T17:41:26.460945
+[WrapWithProviderScope] 2024-10-06T17:41:26.464475 Plugin WrapWithProviderScope threw while analyzing /Users/dileepkumarsharma/Desktop/Projects/Flutter/spotify_clone/client/lib/features/home/view/pages/upload_song_page.dart:
+[WrapWithProviderScope] 2024-10-06T17:41:26.464475 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[WrapWithProviderScope] 2024-10-06T17:41:26.464475
+[WrapWithProviderScope] 2024-10-06T17:41:26.464475 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:54:7)
+[WrapWithProviderScope] 2024-10-06T17:41:26.464475 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:129:5)
+[WrapWithProviderScope] 2024-10-06T17:41:26.464475 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[WrapWithProviderScope] 2024-10-06T17:41:26.464475 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[WrapWithProviderScope] 2024-10-06T17:41:26.464475 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[WrapWithProviderScope] 2024-10-06T17:41:26.464475 #5      new Future.<anonymous closure> (dart:async/future.dart:258:40)
+[WrapWithProviderScope] 2024-10-06T17:41:26.464475 #6      _rootRun (dart:async/zone.dart:1391:47)
+[WrapWithProviderScope] 2024-10-06T17:41:26.464475 #7      _CustomZone.run (dart:async/zone.dart:1301:19)
+[WrapWithProviderScope] 2024-10-06T17:41:26.464475 #8      _CustomZone.runGuarded (dart:async/zone.dart:1209:7)
+[WrapWithProviderScope] 2024-10-06T17:41:26.464475 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1249:23)
+[WrapWithProviderScope] 2024-10-06T17:41:26.464475 #10     _rootRun (dart:async/zone.dart:1399:13)
+[WrapWithProviderScope] 2024-10-06T17:41:26.464475 #11     _CustomZone.run (dart:async/zone.dart:1301:19)
+[WrapWithProviderScope] 2024-10-06T17:41:26.464475 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[WrapWithProviderScope] 2024-10-06T17:41:26.464475 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[WrapWithProviderScope] 2024-10-06T17:41:26.464475 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:398:19)
+[WrapWithProviderScope] 2024-10-06T17:41:26.464475 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:429:5)
+[WrapWithProviderScope] 2024-10-06T17:41:26.464475 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:184:12)
+[WrapWithProviderScope] 2024-10-06T17:41:26.464475
+[WrapWithConsumer] 2024-10-06T17:41:26.464674 Plugin WrapWithConsumer threw while analyzing /Users/dileepkumarsharma/Desktop/Projects/Flutter/spotify_clone/client/lib/features/home/view/pages/upload_song_page.dart:
+[WrapWithConsumer] 2024-10-06T17:41:26.464674 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[WrapWithConsumer] 2024-10-06T17:41:26.464674
+[WrapWithConsumer] 2024-10-06T17:41:26.464674 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:54:7)
+[WrapWithConsumer] 2024-10-06T17:41:26.464674 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:129:5)
+[WrapWithConsumer] 2024-10-06T17:41:26.464674 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[WrapWithConsumer] 2024-10-06T17:41:26.464674 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[WrapWithConsumer] 2024-10-06T17:41:26.464674 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[WrapWithConsumer] 2024-10-06T17:41:26.464674 #5      new Future.<anonymous closure> (dart:async/future.dart:258:40)
+[WrapWithConsumer] 2024-10-06T17:41:26.464674 #6      _rootRun (dart:async/zone.dart:1391:47)
+[WrapWithConsumer] 2024-10-06T17:41:26.464674 #7      _CustomZone.run (dart:async/zone.dart:1301:19)
+[WrapWithConsumer] 2024-10-06T17:41:26.464674 #8      _CustomZone.runGuarded (dart:async/zone.dart:1209:7)
+[WrapWithConsumer] 2024-10-06T17:41:26.464674 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1249:23)
+[WrapWithConsumer] 2024-10-06T17:41:26.464674 #10     _rootRun (dart:async/zone.dart:1399:13)
+[WrapWithConsumer] 2024-10-06T17:41:26.464674 #11     _CustomZone.run (dart:async/zone.dart:1301:19)
+[WrapWithConsumer] 2024-10-06T17:41:26.464674 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[WrapWithConsumer] 2024-10-06T17:41:26.464674 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[WrapWithConsumer] 2024-10-06T17:41:26.464674 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:398:19)
+[WrapWithConsumer] 2024-10-06T17:41:26.464674 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:429:5)
+[WrapWithConsumer] 2024-10-06T17:41:26.464674 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:184:12)
+[WrapWithConsumer] 2024-10-06T17:41:26.464674
+[WrapWithProviderScope] 2024-10-06T17:41:26.464823 Plugin WrapWithProviderScope threw while analyzing /Users/dileepkumarsharma/Desktop/Projects/Flutter/spotify_clone/client/lib/features/home/view/pages/upload_song_page.dart:
+[WrapWithProviderScope] 2024-10-06T17:41:26.464823 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[WrapWithProviderScope] 2024-10-06T17:41:26.464823
+[WrapWithProviderScope] 2024-10-06T17:41:26.464823 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:54:7)
+[WrapWithProviderScope] 2024-10-06T17:41:26.464823 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:129:5)
+[WrapWithProviderScope] 2024-10-06T17:41:26.464823 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[WrapWithProviderScope] 2024-10-06T17:41:26.464823 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[WrapWithProviderScope] 2024-10-06T17:41:26.464823 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[WrapWithProviderScope] 2024-10-06T17:41:26.464823 #5      new Future.<anonymous closure> (dart:async/future.dart:258:40)
+[WrapWithProviderScope] 2024-10-06T17:41:26.464823 #6      _rootRun (dart:async/zone.dart:1391:47)
+[WrapWithProviderScope] 2024-10-06T17:41:26.464823 #7      _CustomZone.run (dart:async/zone.dart:1301:19)
+[WrapWithProviderScope] 2024-10-06T17:41:26.464823 #8      _CustomZone.runGuarded (dart:async/zone.dart:1209:7)
+[WrapWithProviderScope] 2024-10-06T17:41:26.464823 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1249:23)
+[WrapWithProviderScope] 2024-10-06T17:41:26.464823 #10     _rootRun (dart:async/zone.dart:1399:13)
+[WrapWithProviderScope] 2024-10-06T17:41:26.464823 #11     _CustomZone.run (dart:async/zone.dart:1301:19)
+[WrapWithProviderScope] 2024-10-06T17:41:26.464823 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[WrapWithProviderScope] 2024-10-06T17:41:26.464823 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[WrapWithProviderScope] 2024-10-06T17:41:26.464823 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:398:19)
+[WrapWithProviderScope] 2024-10-06T17:41:26.464823 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:429:5)
+[WrapWithProviderScope] 2024-10-06T17:41:26.464823 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:184:12)
+[WrapWithProviderScope] 2024-10-06T17:41:26.464823
+[WrapWithConsumer] 2024-10-06T17:53:55.695764 Plugin WrapWithConsumer threw while analyzing /Users/dileepkumarsharma/Desktop/Projects/Flutter/spotify_clone/client/lib/features/home/view/pages/upload_song_page.dart:
+[WrapWithConsumer] 2024-10-06T17:53:55.695764 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[WrapWithConsumer] 2024-10-06T17:53:55.695764
+[WrapWithConsumer] 2024-10-06T17:53:55.695764 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:54:7)
+[WrapWithConsumer] 2024-10-06T17:53:55.695764 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:129:5)
+[WrapWithConsumer] 2024-10-06T17:53:55.695764 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[WrapWithConsumer] 2024-10-06T17:53:55.695764 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[WrapWithConsumer] 2024-10-06T17:53:55.695764 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[WrapWithConsumer] 2024-10-06T17:53:55.695764 #5      new Future.<anonymous closure> (dart:async/future.dart:258:40)
+[WrapWithConsumer] 2024-10-06T17:53:55.695764 #6      _rootRun (dart:async/zone.dart:1391:47)
+[WrapWithConsumer] 2024-10-06T17:53:55.695764 #7      _CustomZone.run (dart:async/zone.dart:1301:19)
+[WrapWithConsumer] 2024-10-06T17:53:55.695764 #8      _CustomZone.runGuarded (dart:async/zone.dart:1209:7)
+[WrapWithConsumer] 2024-10-06T17:53:55.695764 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1249:23)
+[WrapWithConsumer] 2024-10-06T17:53:55.695764 #10     _rootRun (dart:async/zone.dart:1399:13)
+[WrapWithConsumer] 2024-10-06T17:53:55.695764 #11     _CustomZone.run (dart:async/zone.dart:1301:19)
+[WrapWithConsumer] 2024-10-06T17:53:55.695764 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[WrapWithConsumer] 2024-10-06T17:53:55.695764 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[WrapWithConsumer] 2024-10-06T17:53:55.695764 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:398:19)
+[WrapWithConsumer] 2024-10-06T17:53:55.695764 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:429:5)
+[WrapWithConsumer] 2024-10-06T17:53:55.695764 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:184:12)
+[WrapWithConsumer] 2024-10-06T17:53:55.695764
+[WrapWithProviderScope] 2024-10-06T17:53:55.697749 Plugin WrapWithProviderScope threw while analyzing /Users/dileepkumarsharma/Desktop/Projects/Flutter/spotify_clone/client/lib/features/home/view/pages/upload_song_page.dart:
+[WrapWithProviderScope] 2024-10-06T17:53:55.697749 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[WrapWithProviderScope] 2024-10-06T17:53:55.697749
+[WrapWithProviderScope] 2024-10-06T17:53:55.697749 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:54:7)
+[WrapWithProviderScope] 2024-10-06T17:53:55.697749 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:129:5)
+[WrapWithProviderScope] 2024-10-06T17:53:55.697749 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[WrapWithProviderScope] 2024-10-06T17:53:55.697749 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[WrapWithProviderScope] 2024-10-06T17:53:55.697749 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[WrapWithProviderScope] 2024-10-06T17:53:55.697749 #5      new Future.<anonymous closure> (dart:async/future.dart:258:40)
+[WrapWithProviderScope] 2024-10-06T17:53:55.697749 #6      _rootRun (dart:async/zone.dart:1391:47)
+[WrapWithProviderScope] 2024-10-06T17:53:55.697749 #7      _CustomZone.run (dart:async/zone.dart:1301:19)
+[WrapWithProviderScope] 2024-10-06T17:53:55.697749 #8      _CustomZone.runGuarded (dart:async/zone.dart:1209:7)
+[WrapWithProviderScope] 2024-10-06T17:53:55.697749 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1249:23)
+[WrapWithProviderScope] 2024-10-06T17:53:55.697749 #10     _rootRun (dart:async/zone.dart:1399:13)
+[WrapWithProviderScope] 2024-10-06T17:53:55.697749 #11     _CustomZone.run (dart:async/zone.dart:1301:19)
+[WrapWithProviderScope] 2024-10-06T17:53:55.697749 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[WrapWithProviderScope] 2024-10-06T17:53:55.697749 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[WrapWithProviderScope] 2024-10-06T17:53:55.697749 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:398:19)
+[WrapWithProviderScope] 2024-10-06T17:53:55.697749 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:429:5)
+[WrapWithProviderScope] 2024-10-06T17:53:55.697749 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:184:12)
+[WrapWithProviderScope] 2024-10-06T17:53:55.697749
+[IgnoreCode] 2024-10-06T20:12:52.000119 Plugin IgnoreCode threw while analyzing /Users/dileepkumarsharma/Desktop/Projects/Flutter/spotify_clone/client/lib/features/home/repositories/home_repositories.dart:
+[IgnoreCode] 2024-10-06T20:12:52.000119 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[IgnoreCode] 2024-10-06T20:12:52.000119
+[IgnoreCode] 2024-10-06T20:12:52.000119 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:54:7)
+[IgnoreCode] 2024-10-06T20:12:52.000119 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:129:5)
+[IgnoreCode] 2024-10-06T20:12:52.000119 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[IgnoreCode] 2024-10-06T20:12:52.000119 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[IgnoreCode] 2024-10-06T20:12:52.000119 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[IgnoreCode] 2024-10-06T20:12:52.000119 #5      new Future.<anonymous closure> (dart:async/future.dart:258:40)
+[IgnoreCode] 2024-10-06T20:12:52.000119 #6      _rootRun (dart:async/zone.dart:1391:47)
+[IgnoreCode] 2024-10-06T20:12:52.000119 #7      _CustomZone.run (dart:async/zone.dart:1301:19)
+[IgnoreCode] 2024-10-06T20:12:52.000119 #8      _CustomZone.runGuarded (dart:async/zone.dart:1209:7)
+[IgnoreCode] 2024-10-06T20:12:52.000119 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1249:23)
+[IgnoreCode] 2024-10-06T20:12:52.000119 #10     _rootRun (dart:async/zone.dart:1399:13)
+[IgnoreCode] 2024-10-06T20:12:52.000119 #11     _CustomZone.run (dart:async/zone.dart:1301:19)
+[IgnoreCode] 2024-10-06T20:12:52.000119 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[IgnoreCode] 2024-10-06T20:12:52.000119 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[IgnoreCode] 2024-10-06T20:12:52.000119 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:398:19)
+[IgnoreCode] 2024-10-06T20:12:52.000119 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:429:5)
+[IgnoreCode] 2024-10-06T20:12:52.000119 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:184:12)
+[IgnoreCode] 2024-10-06T20:12:52.000119
+[IgnoreCode] 2024-10-06T20:12:52.009512 Plugin IgnoreCode threw while analyzing /Users/dileepkumarsharma/Desktop/Projects/Flutter/spotify_clone/client/lib/features/home/repositories/home_repositories.dart:
+[IgnoreCode] 2024-10-06T20:12:52.009512 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[IgnoreCode] 2024-10-06T20:12:52.009512
+[IgnoreCode] 2024-10-06T20:12:52.009512 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:54:7)
+[IgnoreCode] 2024-10-06T20:12:52.009512 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:129:5)
+[IgnoreCode] 2024-10-06T20:12:52.009512 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[IgnoreCode] 2024-10-06T20:12:52.009512 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[IgnoreCode] 2024-10-06T20:12:52.009512 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[IgnoreCode] 2024-10-06T20:12:52.009512 #5      new Future.<anonymous closure> (dart:async/future.dart:258:40)
+[IgnoreCode] 2024-10-06T20:12:52.009512 #6      _rootRun (dart:async/zone.dart:1391:47)
+[IgnoreCode] 2024-10-06T20:12:52.009512 #7      _CustomZone.run (dart:async/zone.dart:1301:19)
+[IgnoreCode] 2024-10-06T20:12:52.009512 #8      _CustomZone.runGuarded (dart:async/zone.dart:1209:7)
+[IgnoreCode] 2024-10-06T20:12:52.009512 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1249:23)
+[IgnoreCode] 2024-10-06T20:12:52.009512 #10     _rootRun (dart:async/zone.dart:1399:13)
+[IgnoreCode] 2024-10-06T20:12:52.009512 #11     _CustomZone.run (dart:async/zone.dart:1301:19)
+[IgnoreCode] 2024-10-06T20:12:52.009512 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[IgnoreCode] 2024-10-06T20:12:52.009512 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[IgnoreCode] 2024-10-06T20:12:52.009512 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:398:19)
+[IgnoreCode] 2024-10-06T20:12:52.009512 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:429:5)
+[IgnoreCode] 2024-10-06T20:12:52.009512 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:184:12)
+[IgnoreCode] 2024-10-06T20:12:52.009512
+[FunctionalRefFix] 2024-10-06T20:12:52.009817 Plugin FunctionalRefFix threw while analyzing /Users/dileepkumarsharma/Desktop/Projects/Flutter/spotify_clone/client/lib/features/home/repositories/home_repositories.dart:
+[FunctionalRefFix] 2024-10-06T20:12:52.009817 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[FunctionalRefFix] 2024-10-06T20:12:52.009817
+[FunctionalRefFix] 2024-10-06T20:12:52.009817 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:54:7)
+[FunctionalRefFix] 2024-10-06T20:12:52.009817 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:129:5)
+[FunctionalRefFix] 2024-10-06T20:12:52.009817 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[FunctionalRefFix] 2024-10-06T20:12:52.009817 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[FunctionalRefFix] 2024-10-06T20:12:52.009817 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[FunctionalRefFix] 2024-10-06T20:12:52.009817 #5      new Future.<anonymous closure> (dart:async/future.dart:258:40)
+[FunctionalRefFix] 2024-10-06T20:12:52.009817 #6      _rootRun (dart:async/zone.dart:1391:47)
+[FunctionalRefFix] 2024-10-06T20:12:52.009817 #7      _CustomZone.run (dart:async/zone.dart:1301:19)
+[FunctionalRefFix] 2024-10-06T20:12:52.009817 #8      _CustomZone.runGuarded (dart:async/zone.dart:1209:7)
+[FunctionalRefFix] 2024-10-06T20:12:52.009817 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1249:23)
+[FunctionalRefFix] 2024-10-06T20:12:52.009817 #10     _rootRun (dart:async/zone.dart:1399:13)
+[FunctionalRefFix] 2024-10-06T20:12:52.009817 #11     _CustomZone.run (dart:async/zone.dart:1301:19)
+[FunctionalRefFix] 2024-10-06T20:12:52.009817 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[FunctionalRefFix] 2024-10-06T20:12:52.009817 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[FunctionalRefFix] 2024-10-06T20:12:52.009817 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:398:19)
+[FunctionalRefFix] 2024-10-06T20:12:52.009817 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:429:5)
+[FunctionalRefFix] 2024-10-06T20:12:52.009817 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:184:12)
+[FunctionalRefFix] 2024-10-06T20:12:52.009817
+[ConvertToStatelessBaseWidget] 2024-10-07T00:38:37.720765 Plugin ConvertToStatelessBaseWidget threw while analyzing /Users/dileepkumarsharma/Desktop/Projects/Flutter/spotify_clone/client/lib/features/home/view/widgets/music_player.dart:
+[ConvertToStatelessBaseWidget] 2024-10-07T00:38:37.720765 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[ConvertToStatelessBaseWidget] 2024-10-07T00:38:37.720765
+[ConvertToStatelessBaseWidget] 2024-10-07T00:38:37.720765 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:54:7)
+[ConvertToStatelessBaseWidget] 2024-10-07T00:38:37.720765 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:129:5)
+[ConvertToStatelessBaseWidget] 2024-10-07T00:38:37.720765 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[ConvertToStatelessBaseWidget] 2024-10-07T00:38:37.720765 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[ConvertToStatelessBaseWidget] 2024-10-07T00:38:37.720765 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[ConvertToStatelessBaseWidget] 2024-10-07T00:38:37.720765 #5      new Future.<anonymous closure> (dart:async/future.dart:258:40)
+[ConvertToStatelessBaseWidget] 2024-10-07T00:38:37.720765 #6      _rootRun (dart:async/zone.dart:1391:47)
+[ConvertToStatelessBaseWidget] 2024-10-07T00:38:37.720765 #7      _CustomZone.run (dart:async/zone.dart:1301:19)
+[ConvertToStatelessBaseWidget] 2024-10-07T00:38:37.720765 #8      _CustomZone.runGuarded (dart:async/zone.dart:1209:7)
+[ConvertToStatelessBaseWidget] 2024-10-07T00:38:37.720765 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1249:23)
+[ConvertToStatelessBaseWidget] 2024-10-07T00:38:37.720765 #10     _rootRun (dart:async/zone.dart:1399:13)
+[ConvertToStatelessBaseWidget] 2024-10-07T00:38:37.720765 #11     _CustomZone.run (dart:async/zone.dart:1301:19)
+[ConvertToStatelessBaseWidget] 2024-10-07T00:38:37.720765 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[ConvertToStatelessBaseWidget] 2024-10-07T00:38:37.720765 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[ConvertToStatelessBaseWidget] 2024-10-07T00:38:37.720765 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:398:19)
+[ConvertToStatelessBaseWidget] 2024-10-07T00:38:37.720765 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:429:5)
+[ConvertToStatelessBaseWidget] 2024-10-07T00:38:37.720765 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:184:12)
+[ConvertToStatelessBaseWidget] 2024-10-07T00:38:37.720765
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.726659 Plugin ConvertToStatefulBaseWidget threw while analyzing /Users/dileepkumarsharma/Desktop/Projects/Flutter/spotify_clone/client/lib/features/home/view/widgets/music_player.dart:
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.726659 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.726659
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.726659 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:54:7)
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.726659 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:129:5)
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.726659 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.726659 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.726659 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.726659 #5      new Future.<anonymous closure> (dart:async/future.dart:258:40)
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.726659 #6      _rootRun (dart:async/zone.dart:1391:47)
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.726659 #7      _CustomZone.run (dart:async/zone.dart:1301:19)
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.726659 #8      _CustomZone.runGuarded (dart:async/zone.dart:1209:7)
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.726659 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1249:23)
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.726659 #10     _rootRun (dart:async/zone.dart:1399:13)
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.726659 #11     _CustomZone.run (dart:async/zone.dart:1301:19)
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.726659 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.726659 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.726659 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:398:19)
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.726659 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:429:5)
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.726659 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:184:12)
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.726659
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.727709 Plugin ConvertToStatefulBaseWidget threw while analyzing /Users/dileepkumarsharma/Desktop/Projects/Flutter/spotify_clone/client/lib/features/home/view/widgets/music_player.dart:
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.727709 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.727709
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.727709 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:54:7)
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.727709 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:129:5)
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.727709 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.727709 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.727709 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.727709 #5      new Future.<anonymous closure> (dart:async/future.dart:258:40)
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.727709 #6      _rootRun (dart:async/zone.dart:1391:47)
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.727709 #7      _CustomZone.run (dart:async/zone.dart:1301:19)
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.727709 #8      _CustomZone.runGuarded (dart:async/zone.dart:1209:7)
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.727709 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1249:23)
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.727709 #10     _rootRun (dart:async/zone.dart:1399:13)
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.727709 #11     _CustomZone.run (dart:async/zone.dart:1301:19)
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.727709 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.727709 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.727709 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:398:19)
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.727709 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:429:5)
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.727709 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:184:12)
+[ConvertToStatefulBaseWidget] 2024-10-07T00:38:37.727709
