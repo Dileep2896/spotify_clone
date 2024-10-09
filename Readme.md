@@ -97,7 +97,7 @@ The app uses **PostgreSQL** as the primary relational database, managed through 
 
 Check out the video demo of the Spotify Clone in action:
 
-Watch the video demo [here](./project_assets/spotify_demo.webm).
+[![Watch the video]](https://res.cloudinary.com/dkuand2eu/video/upload/v1728448112/cb7qfcffwdcjutx27plx.webm)
 
 This video demonstrates all the core features of the application, including:
 
